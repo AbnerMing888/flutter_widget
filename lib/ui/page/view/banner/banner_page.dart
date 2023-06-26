@@ -28,6 +28,7 @@ class _BannerPageState extends BasePageState<BannerPage> {
             "https://www.vipandroid.cn/ming/image/zao.png"
           ],
           bannerClick: (position) {
+            //条目点击
             Toast.toast(context, msg: position.toString());
           }),
       const VipText("普通的轮播图"),

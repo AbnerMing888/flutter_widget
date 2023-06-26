@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widget/ui/page/view/video/video_page.dart';
 
 import '../ui/page/view/banner/banner_page.dart';
 import '../ui/page/view/bar/app_bar_page.dart';
@@ -30,6 +31,9 @@ class RouterManage {
   //Banner页面路由
   static const String bannerPage = "banner_page";
 
+  //Video页面
+  static const String videoPage = "video_page";
+
   //路由地址
   final routes = {
     //Text页面
@@ -44,6 +48,8 @@ class RouterManage {
     tabBarPage: (context) => const TabBarPage(),
     //Banner页面
     bannerPage: (context) => const BannerPage(),
+    //Video页面
+    videoPage: (context) => const VideoPage(),
   };
 
   static final RouterManage _instance = RouterManage._();

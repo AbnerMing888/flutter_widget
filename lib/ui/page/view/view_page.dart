@@ -25,6 +25,8 @@ class _ViewPageState extends BasePageState<ViewPage> {
     ViewItemBean("VipAppbar", RouterManage.appBarPage, Icons.credit_card),
     ViewItemBean("VipTab", RouterManage.tabBarPage, Icons.view_module),
     ViewItemBean("VipBanner", RouterManage.bannerPage, Icons.view_carousel),
+    ViewItemBean(
+        "VideoController", RouterManage.videoPage, Icons.video_collection),
   ];
 
   /*
