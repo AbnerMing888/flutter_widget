@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_widget/ui/page/util/toast/toast_page.dart';
+import 'package:flutter_widget/ui/page/view/light/TextHighLightPage.dart';
 import 'package:flutter_widget/ui/page/view/video/video_page.dart';
 
+import '../ui/page/util/drop/popup_window_page.dart';
 import '../ui/page/view/banner/banner_page.dart';
 import '../ui/page/view/bar/app_bar_page.dart';
 import '../ui/page/view/bar/tab_bar_page.dart';
@@ -34,6 +37,15 @@ class RouterManage {
   //Video页面
   static const String videoPage = "video_page";
 
+  //内容高亮页面
+  static const String textHighLightPage = "text_high_light_page";
+
+  //Toast页面路由
+  static const String toastPage = "toast_page";
+
+  //popupWindowPage页面路由
+  static const String popupWindowPage = "popup_window_page";
+
   //路由地址
   final routes = {
     //Text页面
@@ -50,6 +62,13 @@ class RouterManage {
     bannerPage: (context) => const BannerPage(),
     //Video页面
     videoPage: (context) => const VideoPage(),
+    //内容高亮
+    textHighLightPage: (context) => const TextHighLightPage(),
+
+    //Toast工具类页面
+    toastPage: (context) => const ToastPage(),
+    //下拉菜单
+    popupWindowPage: (context) => const PopupWindowPage(),
   };
 
   static final RouterManage _instance = RouterManage._();

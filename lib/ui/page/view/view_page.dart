@@ -27,6 +27,7 @@ class _ViewPageState extends BasePageState<ViewPage> {
     ViewItemBean("VipBanner", RouterManage.bannerPage, Icons.view_carousel),
     ViewItemBean(
         "VideoController", RouterManage.videoPage, Icons.video_collection),
+    ViewItemBean("TextHighLight", RouterManage.textHighLightPage, Icons.light),
   ];
 
   /*
